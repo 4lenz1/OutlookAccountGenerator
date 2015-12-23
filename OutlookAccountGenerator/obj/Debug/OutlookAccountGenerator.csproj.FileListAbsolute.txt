@@ -1,0 +1,10 @@
+c:\users\fallenone\documents\visual studio 2015\Projects\OutlookAccountGenerator\OutlookAccountGenerator\bin\Debug\OutlookAccountGenerator.exe.config
+c:\users\fallenone\documents\visual studio 2015\Projects\OutlookAccountGenerator\OutlookAccountGenerator\bin\Debug\OutlookAccountGenerator.exe
+c:\users\fallenone\documents\visual studio 2015\Projects\OutlookAccountGenerator\OutlookAccountGenerator\bin\Debug\OutlookAccountGenerator.pdb
+c:\users\fallenone\documents\visual studio 2015\Projects\OutlookAccountGenerator\OutlookAccountGenerator\obj\Debug\OutlookAccountGenerator.csprojResolveAssemblyReference.cache
+c:\users\fallenone\documents\visual studio 2015\Projects\OutlookAccountGenerator\OutlookAccountGenerator\obj\Debug\OutlookAccountGenerator.Form1.resources
+c:\users\fallenone\documents\visual studio 2015\Projects\OutlookAccountGenerator\OutlookAccountGenerator\obj\Debug\OutlookAccountGenerator.Properties.Resources.resources
+c:\users\fallenone\documents\visual studio 2015\Projects\OutlookAccountGenerator\OutlookAccountGenerator\obj\Debug\OutlookAccountGenerator.csproj.GenerateResource.Cache
+c:\users\fallenone\documents\visual studio 2015\Projects\OutlookAccountGenerator\OutlookAccountGenerator\obj\Debug\OutlookAccountGenerator.exe
+c:\users\fallenone\documents\visual studio 2015\Projects\OutlookAccountGenerator\OutlookAccountGenerator\obj\Debug\OutlookAccountGenerator.pdb
+c:\users\fallenone\documents\visual studio 2015\Projects\OutlookAccountGenerator\OutlookAccountGenerator\obj\Debug\OutlookAccountGenerator.csproj.ResolveComReference.cache
