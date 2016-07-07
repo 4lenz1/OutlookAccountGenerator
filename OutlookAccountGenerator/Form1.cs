@@ -33,7 +33,7 @@ namespace OutlookAccountGenerator
             Excel.Workbook wb = excel.Workbooks.Add(1);
             Excel.Worksheet sh = wb.Sheets.Add();
             datePicker.Format = DateTimePickerFormat.Custom;
-            datePicker.CustomFormat = "yyyyMMdd";
+            datePicker.CustomFormat = "yyMMdd";
           
             sh.Name = "Azure Account";
 
@@ -46,14 +46,17 @@ namespace OutlookAccountGenerator
             for(int index = 1; index <= Int32.Parse( inputAmount.Text); index   ++)
             {
                 sh.Cells[index + 1 ,"A"].Value2 = index;
-                sh.Cells[index + 1, "B"].Value2 = "MS" + datePicker.Text + index.ToString("00") + "@outlook.com";
+                sh.Cells[index + 1, "B"].Value2 = "MS" + datePicker.Text + index.ToString("000") + "@outlook.com";
                 sh.Cells[index + 1, "C"].Value2 = "MS" + datePicker.Text;
                 sh.Cells[index + 1, "D"].Value2 = inputApplicant.Text;
             }
 
-            txtFileName.Text = "Azure_Pass_Account_" + datePicker.Text + "_" + inputApplicant.Text + "auto_generate";
+            string filename = "Azure_Pass_Account_" + datePicker.Text + "_" + inputApplicant.Text + "_Auto_Generate";
+            SaveFileDialog mySaveFileDialog = new SaveFileDialog();
+            mySaveFileDialog.FileName = filename;
+            mySaveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx";
+            mySaveFileDialog.ShowDialog();
 
-            wb.Close(true);
             excel.Quit();
 
         }
